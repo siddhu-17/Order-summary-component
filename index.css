@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-image: url(./images/pattern-background-desktop.svg);
+   
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size:contain ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 211, 250);
+}
+
+.bi img{
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+
+}
+.container{
+    background-color:white;
+    margin-right: 1px;
+    width: 30.5%;
+    border-radius: 20px;
+}
+
+.bottom{
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.paragraph p{
+    margin-top: 10px;
+  margin-left: 70px;
+}
+
+.boxes{
+    margin-top: 30px;
+    background-color: rgb(153, 153, 243);
+    padding: 10px;
+    border-radius:5px;
+    display: flex;
+    justify-content:space-around;
+}
+.annualplan{
+    margin-top: 10px;
+}
+.annualplan h5,p{
+  
+    padding-right: 100px;
+   
+
+}
+.choose {
+    padding-top: 10px;
+    padding-right: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.boximg img{
+    padding-right: 70px;
+}
+
+.button1 {
+    margin-top: 30px;
+}
+.button2{
+    margin-top: 20px;
+}
+.button1 button{
+  
+    color:black;
+    padding: 10px  40px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color:rgb(219, 219, 242);
+    border-color:2px blue;
+
+}
+.button2 button{
+    color:black;
+    padding: 10px  40px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: rgb(219, 219, 242);
+    border-color:2px blue;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
